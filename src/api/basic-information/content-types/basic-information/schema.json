@@ -1,0 +1,35 @@
+{
+  "kind": "singleType",
+  "collectionName": "basic_informations",
+  "info": {
+    "singularName": "basic-information",
+    "pluralName": "basic-informations",
+    "displayName": "Basic Information",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "store_name": {
+      "type": "string",
+      "required": false
+    },
+    "short_description": {
+      "type": "text"
+    },
+    "tagline": {
+      "type": "string"
+    },
+    "social_media": {
+      "type": "json"
+    },
+    "whatsapp_order_text": {
+      "type": "text"
+    },
+    "whatsapp_no": {
+      "type": "string"
+    }
+  }
+}
