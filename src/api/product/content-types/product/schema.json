@@ -24,15 +24,19 @@
     "spec": {
       "type": "json"
     },
-    "images": {
-      "type": "json"
-    },
     "slug": {
       "type": "uid",
       "targetField": "product_name"
     },
     "price_before": {
       "type": "biginteger"
+    },
+    "images": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true
     }
   }
 }
